@@ -47,7 +47,7 @@ const actions = {
       commit('UPDATE_FILE_LIST', data)
       commit('UPDATE_EDIT_INDEX', -1)
       goFilePath && commit('UPDATE_FILE_PATH', goFilePath)
-      mkdirIpt === true && commit('UPDATE_MKDIR_STATUS', false)
+      mkdirIpt && commit('UPDATE_MKDIR_STATUS', false)
       return data
     })
   },

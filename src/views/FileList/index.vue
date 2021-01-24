@@ -120,7 +120,7 @@ export default {
     // 获取文件列表
     this.getFileList()
   },
-  destroyed() {
+  beforeDestroy() {
     this.$store.hasModule('FileList') &&
       this.$store.unregisterModule('FileList')
   }
