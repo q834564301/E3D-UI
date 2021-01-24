@@ -1,5 +1,7 @@
 :root {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'PingFangSC-Regular', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif, 'Microsoft YaHei';
+  font-size: 14px;
 }
 
 body {
@@ -37,7 +39,7 @@ img {
 }
 
 .clearfix::after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
